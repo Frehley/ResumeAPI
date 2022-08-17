@@ -13,7 +13,4 @@ app.get('/api/item/:slug', (req, res) => {
     res.end(`Item: ${ slug }`);
 });
 
-app.use(require('./api/routes/resume'));
-
-
 module.exports = app;
