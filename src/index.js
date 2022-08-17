@@ -12,8 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 //Routes
-app.use(require('./routes/index'));
-app.use(require('./routes/resume'));
+//app.use(require('./routes/resume'));
 
 //Iniciando el servidor, escuchando...
 app.listen(app.get('port'), () => {
